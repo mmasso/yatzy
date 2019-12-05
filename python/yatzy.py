@@ -8,7 +8,7 @@ class Yatzy:
         return score
 
     @staticmethod
-    def yatzy(dice):
+    def yatzy(*dice):
         previous_die = dice[0]
         for die in dice:
             if die != previous_die:
