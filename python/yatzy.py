@@ -1,11 +1,11 @@
 class Yatzy:
 
     @staticmethod
-    def chance(*dados):
-        total = 0
-        for valor_dado in list(dados):
-            total += valor_dado
-        return total
+    def chance(*dice):
+        score = 0
+        for die_value in list(dice):
+            score += die_value
+        return score
 
     @staticmethod
     def yatzy(dice):
