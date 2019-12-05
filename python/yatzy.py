@@ -3,7 +3,7 @@ class Yatzy:
     @staticmethod
     def chance(*dice):
         score = 0
-        for die_value in list(dice):
+        for die_value in dice:
             score += die_value
         return score
 
